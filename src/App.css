@@ -155,3 +155,12 @@ h2 {
   color: white;
   transform: scale(0.8);
 }
+.empty-message{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 100px; 
+}

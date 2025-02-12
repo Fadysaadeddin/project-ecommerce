@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CategoryList from "./CategoryList";
+import CategoryList from "./categoryList";
 import useFetch from "./useFetch";
 import { useFavorites } from "./FavoritesContext";
 
