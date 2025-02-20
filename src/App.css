@@ -195,5 +195,8 @@
     .category-item {
         font-size: 14px; /* Reduces the font size on smaller screens */
         padding: 8px 15px; /* Reduces padding to fit better */
+        width: auto; /* Ensures the width is flexible based on the content */
+        min-width: 120px; /* Adjust the minimum width to fit the text */
+        max-width: 150px; /* Restrict maximum width */
     }
 }
