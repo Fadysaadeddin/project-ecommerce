@@ -1,12 +1,10 @@
-/* ===============================
-   🌟 GENERAL STYLES
-   =============================== */
+
    body {
     font-family: "Arial";
     background-color: #f8f9fa;
     margin: 0;
 
-    padding-top: 150px; /* Ensure content is not hidden under navbars */
+    padding-top: 150px; 
   }
   
   h2 {
@@ -28,9 +26,7 @@
 
   }
   
-  /* ===============================
-     📌 NAVIGATION STYLES
-     =============================== */
+
   .navbar {
     position: fixed;
     top: 0;
@@ -60,10 +56,10 @@
     color: white;
   }
   
-  /* Category Navigation */
+ 
   .category-navbar {
     position: fixed;
-    top: 62px; /* Adjusted to be below the main navbar */
+    top: 62px; 
     left: 0;
     width: 100%;
     background-color: #f8f8f8;
@@ -96,9 +92,7 @@
     background-color: rgb(81, 136, 184);
   }
   
-  /* ===============================
-     🛍️ PRODUCT STYLES
-     =============================== */
+
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -135,9 +129,7 @@
     transform: scale(1.05);
   }
   
-  /* ===============================
-     🔍 PRODUCT DETAILS PAGE
-     =============================== */
+
   .product-detail {
     display: flex;
     flex-direction: column;
@@ -171,9 +163,7 @@
     margin-top: 10px;
   }
   
-  /* ===============================
-     ❤️ FAVORITES BUTTON
-     =============================== */
+
   .favorite-btn {
     background: none;
     border: none;
